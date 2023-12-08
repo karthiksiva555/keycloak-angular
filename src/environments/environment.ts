@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  stsAuthority: 'https://gcekcdsvrt1.geotab.com:8443/realms/dev',
+  clientId: 'sample-angular',
+  clientRoot: 'http://localhost:4200/',
+  clientScope: 'openid profile email',
+  apiRoot: 'http://localhost:5000/api/v1/',
 };
 
 /*
